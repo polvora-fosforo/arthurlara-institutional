@@ -1,0 +1,27 @@
+{
+  "name": "arthurlara-institutional",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polvora-fosforo/arthurlara-institutional.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/polvora-fosforo/arthurlara-institutional/issues"
+  },
+  "homepage": "https://github.com/polvora-fosforo/arthurlara-institutional#readme",
+  "dependencies": {
+    "next": "^10.0.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
