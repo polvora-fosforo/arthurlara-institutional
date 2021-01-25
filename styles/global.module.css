@@ -35,8 +35,8 @@ Examples: large desktops, 1200px and up
   width: 100%;
 }
 
-/* @media (max-width: 1280px) {
-  .container--fluid, .container {
-    padding: 0 10px;
+@media (max-width: 767px) {
+  .container {
+    padding: 0 25px;
   }
-} */
+}

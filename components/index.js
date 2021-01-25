@@ -1,4 +1,4 @@
-import Menu from './Menu';
+import Menu from './menu/Menu';
 import Intro from './Intro';
 import Experiences from './Experiences';
 import ThisWebsite from './ThisWebsite';

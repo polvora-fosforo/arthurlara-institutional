@@ -1,7 +1,6 @@
 .menu {
   width: 100%;
   background: #040c1c;
-  color: #fff;
   padding: 10px 0;
   position: fixed;
 }
@@ -14,13 +13,13 @@
 
 .menu__logo {
   font-family: 'Staatliches', sans-serif;
-  font-size: 2.6rem;
+  font-size: 2rem;
   color: #32c18c;
   text-align: center;
 }
 
 .menu__logo--subtitle {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #de18bf;
   display: block;
 }
@@ -45,4 +44,48 @@
 
 .menu__item:hover {
   color: #7dd0b1;
+}
+
+@media (max-width: 767px) {
+  .menu__list {
+    position: fixed;
+    background: #000;
+    top: 0;
+    right: -100%;
+    left: 100%;
+    bottom: 0;
+
+    flex-direction: column;
+
+    box-shadow: none;
+    transition: right 0.7s ease, left 0.7s ease, box-shadow 0.3s ease;
+  }
+  .menu__list--opened {
+    left: 0;
+    right: 0;
+    box-shadow: -30px 0px 120px 100px #000;
+  }
+
+  .menu__icon {
+    height: 30px;
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px 0px 15px 15px;
+  }
+  .menu__icon span {
+    display: block;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 3px;
+  }
+
+  .menu__close {
+    color: #fff;
+    padding: 20px 0;
+    max-width: 60px;
+    text-align: center;
+    font-size: 1.8rem;
+  }
 }
