@@ -14,7 +14,7 @@ const Home = () => {
       <Head>
         <title>Arthur Lara Web Developer</title>
         <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Khand:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Staatliches&family=Roboto:wght@400;500&display=swap" rel="stylesheet" />
       </Head>
       <Menu/>
       <Intro/>

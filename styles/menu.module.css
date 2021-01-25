@@ -1,8 +1,9 @@
 .menu {
   width: 100%;
-  background: #1a0041;
+  background: #040c1c;
   color: #fff;
-  padding: 10px;
+  padding: 10px 0;
+  position: fixed;
 }
 
 .menu__container {
@@ -12,7 +13,7 @@
 }
 
 .menu__logo {
-  font-family: 'Khand', sans-serif;
+  font-family: 'Staatliches', sans-serif;
   font-size: 2.6rem;
   color: #32c18c;
   text-align: center;
@@ -27,4 +28,21 @@
 .menu__list {
   display: flex;
   flex-direction: row;
+}
+
+.menu__item {
+  padding: 10px;
+  color: #fff;
+  font-size: 1.1rem;
+  cursor: pointer;
+
+  transition: color 0.4s ease;
+}
+
+.menu__item:last-child {
+  padding-right: 0;
+}
+
+.menu__item:hover {
+  color: #7dd0b1;
 }

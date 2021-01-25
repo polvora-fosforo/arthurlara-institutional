@@ -1,8 +1,42 @@
+/* 
+BREAKPOINTS:
+---
+**Extra Small viewport(x < 576)**
+- breakpoint to next: 576px
+Examples: portrait phones, less than 576px
+
+**Small viewport (576 ~ 767)**
+- breakpoint to prev: 575px
+- breakpoint to next: 768px
+Examples: landscape phones, 576px and up
+
+**Medium viewport (768 ~ 991)**
+- breakpoint to prev: 767px
+- breakpoint to next: 992px
+Examples: tablets, old notebooks, 768px and up
+
+**Large viewport (992 ~ 1199)**
+- breakpoint to prev: 991px
+- breakpoint to next: 1200px
+Examples: desktops, 992px and up
+
+**Extra Large viewport (1200 ~ To Infinite and Beyond)**
+- breakpoint to prev: 1199px
+Examples: large desktops, 1200px and up
+ */
+
 .container {
-  max-width: 1200px;
+  max-width: 1160px;
   margin: 0 auto;
+  padding: 0 40px;
 }
 
 .container--fluid {
   width: 100%;
 }
+
+/* @media (max-width: 1280px) {
+  .container--fluid, .container {
+    padding: 0 10px;
+  }
+} */

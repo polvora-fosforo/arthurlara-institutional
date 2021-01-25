@@ -1,6 +1,32 @@
 .background {
-  height: 100vh;
+  height: calc(100vh - 80px);
   background-image: url('../img/intro-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 80px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+
+.intro__title {
+  color: #32c18c;
+  font-size: 2.5rem;
+  font-weight: 500;
+  padding-bottom: 5px;
+  text-shadow: 0px 0px 15px #000;
+}
+
+.intro__text {
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 7px 0;
+  max-width: 640px;
+  text-shadow: 0px 0px 5px #000;
 }
