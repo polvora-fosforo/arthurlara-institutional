@@ -7,15 +7,17 @@ function MenuList(props) {
 
   const showHiddenMenuElements = () => {
     if(props.hiddenMenu) {
-      return[
-        <span
-        className={styles.menu__close}
-          onClick={props.setOpenMenu}
-        >
-          {'<'}
-        </span>,
-        <Logo />
-      ];
+      return (
+        <>
+          <span
+          className={styles.menu__close}
+            onClick={props.setOpenMenu}
+          >
+            {'<'}
+          </span>,
+          <Logo />
+        </>
+      );
     }
   }
 

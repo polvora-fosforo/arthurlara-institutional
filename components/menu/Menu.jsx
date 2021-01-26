@@ -17,7 +17,6 @@ const Menu = () => {
 
   const checkMenuStatus = () => {
     if(window.innerWidth < 768 && hiddenMenu === false) {
-      console.log('fell here')
       setHiddenMenu(true);
     } else if(window.innerWidth >= 768 && hiddenMenu === true) {
       setHiddenMenu(false);
