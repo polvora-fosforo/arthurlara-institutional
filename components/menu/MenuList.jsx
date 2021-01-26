@@ -3,6 +3,9 @@ import { Link as Anchor } from "react-scroll";
 import styles from '../../styles/menu.module.css';
 import Logo from './Logo';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAngleLeft } from '@fortawesome/free-solid-svg-icons'
+
 function MenuList(props) {
 
   const showHiddenMenuElements = () => {
@@ -13,7 +16,7 @@ function MenuList(props) {
           className={styles.menu__close}
             onClick={props.setOpenMenu}
           >
-            {'<'}
+            <FontAwesomeIcon icon={faAngleLeft} />
           </span>
           <Logo />
         </>

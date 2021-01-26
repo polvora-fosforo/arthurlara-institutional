@@ -4,6 +4,9 @@ import styles from '../../styles/menu.module.css';
 import MenuList from './MenuList';
 import Logo from './Logo';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
+
 const Menu = () => {
   const [hiddenMenu, setHiddenMenu] = useState(false);
   const [openMenu, setOpenMenu] = useState(false);
@@ -32,9 +35,7 @@ const Menu = () => {
           className={styles.menu__icon}
           onClick={() => setOpenMenu(!openMenu)}
         >
-          <span></span>
-          <span></span>
-          <span></span>
+          <FontAwesomeIcon icon={faBars} />
         </div>,
         <MenuList
           key="MenuList"

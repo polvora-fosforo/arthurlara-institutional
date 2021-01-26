@@ -77,25 +77,13 @@
   }
 
   .menu__icon {
-    height: 30px;
-    width: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 15px 0px 15px 15px;
-  }
-  .menu__icon span {
-    display: block;
-    height: 4px;
-    background-color: #fff;
-    border-radius: 3px;
+    width: 30px;
+    padding: 10px 0px 10px 30px;
   }
 
   .menu__close {
     color: #fff;
-    padding: 20px 0;
-    max-width: 60px;
-    text-align: center;
-    font-size: 1.8rem;
+    padding: 20px 30px;
+    max-width: 19px;
   }
 }
