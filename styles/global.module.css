@@ -28,7 +28,7 @@ Examples: large desktops, 1200px and up
 .container {
   max-width: 1160px;
   margin: 0 auto;
-  padding: 0 40px;
+  padding: 40px;
 }
 
 .container--fluid {
@@ -52,6 +52,6 @@ Examples: large desktops, 1200px and up
 
 @media (max-width: 767px) {
   .container {
-    padding: 0 25px;
+    padding: 40px 25px;
   }
 }

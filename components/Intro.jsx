@@ -5,7 +5,7 @@ import styles from '../styles/intro.module.css';
 const Intro = () => {
   return (
     <section className={`${globalStyles['container--fluid']} ${styles.background}`}>
-      <div className={`${globalStyles.container} ${styles.intro}`}>
+      <div className={styles.intro}>
         <h2 className={styles.intro__title}>Web developer,<br/> JS and CSS enthusiast.</h2>
         <p className={styles.intro__text}>Hello, i'm Arthur and i've been working with web development since 2017! I'm living in Osasco, a city located right after São Paulo.</p>
         <p className={styles.intro__text}>In 2017, i started out working with very basic HTML and CSS, and became a fan of CSS and it's possibilities.</p>

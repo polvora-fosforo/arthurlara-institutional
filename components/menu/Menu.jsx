@@ -51,7 +51,7 @@ const Menu = () => {
 
   return (
     <nav className={styles.menu}>
-      <div className={`${globalStyles.container} ${styles.menu__container}`}>
+      <div className={styles.menu__container}>
         <Logo mainLogo={true} />
         {renderMenuList()}
       </div>
