@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import globalStyles from '../../styles/global.module.css';
 import styles from '../../styles/menu.module.css';
 import MenuList from './MenuList';
 import Logo from './Logo';

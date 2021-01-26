@@ -8,7 +8,7 @@ import { faCss3 } from '@fortawesome/free-brands-svg-icons'
 
 function MyKnowledge() {
   return(
-    <section id="myknowledge" className={`${globalStyles['container--fluid']} ${styles.background}`}>
+    <section id="myKnowledge" className={`${globalStyles['container--fluid']} ${styles.background}`}>
       <h2 className={`${globalStyles.subjectTitle} ${globalStyles['subjectTitle--alternate']}`}>My knowledge</h2>
       <div className={`${styles.knowledges} ${globalStyles.container}`}>
 

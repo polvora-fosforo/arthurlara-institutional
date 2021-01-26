@@ -29,7 +29,8 @@ function MenuList(props) {
       {showHiddenMenuElements()}
       <li className={styles.menu__item}>
         <Anchor
-          to="aboutMe"
+          onClick={props.setOpenMenu}
+          to="intro"
           spy={true}
           smooth={true}
           offset={-70}
@@ -40,6 +41,7 @@ function MenuList(props) {
       </li>
       <li className={styles.menu__item}>
         <Anchor
+          onClick={props.setOpenMenu}
           to="experiences"
           spy={true}
           smooth={true}
@@ -51,6 +53,19 @@ function MenuList(props) {
       </li>
       <li className={styles.menu__item}>
         <Anchor
+          onClick={props.setOpenMenu}
+          to="myKnowledge"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
+          My knowledge
+        </Anchor>
+      </li>
+      <li className={styles.menu__item}>
+        <Anchor
+          onClick={props.setOpenMenu}
           to="thisWebsite"
           spy={true}
           smooth={true}
@@ -61,7 +76,8 @@ function MenuList(props) {
         </Anchor>
       </li>
       <li className={styles.menu__item}>
-      <Anchor
+        <Anchor
+          onClick={props.setOpenMenu}
           to="contact"
           spy={true}
           smooth={true}
