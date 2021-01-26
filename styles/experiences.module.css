@@ -1,0 +1,63 @@
+.experiences__container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.jobs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.job {
+  flex: 1;
+  padding: 30px 20px 0;
+}
+.job:first-child {
+  padding-left: 0;
+}
+.job:last-child {
+  padding-right: 0;
+}
+
+.job__intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.job__intro > div {
+  border-radius: 25px;
+}
+.job__title, .job__period {
+  font-weight: 500;
+  color: #32c18c;
+  text-align: center;
+}
+.job__title {
+  padding: 30px 0 0;
+  font-size: 1.4rem;
+}
+.job__period {
+  padding: 10px 0;
+  font-size: 1rem;
+}
+.job__paragraph {
+  padding: 10px 0;
+  font-size: 1.1rem;
+}
+.job__link {
+  color: #5fbaf3;
+  border: 1px solid #777;
+  padding: 8px 10px;
+  border-radius: 14px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 991px) {
+  .jobs {
+    flex-direction: column;
+  }
+  .job {
+    padding: 30px 0 0;
+  }
+}
