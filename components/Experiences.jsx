@@ -3,6 +3,9 @@ import globalStyles from '../styles/global.module.css';
 import styles from '../styles/experiences.module.css';
 import Image from 'next/image';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
+
 const Experiences = () => {
 
   const jobs = [
@@ -89,7 +92,12 @@ const Experiences = () => {
             <p className={styles.job__period}>
               {job.period}
             </p>
-            <a className={styles.job__link} href={job.link} target="_blank">{job.link}</a>
+            <a className={styles.job__link} href={job.link} target="_blank">
+              {job.link}
+              <span className={styles['job__link--external']}>
+                <FontAwesomeIcon icon={faExternalLinkAlt} />
+              </span>
+            </a>
           </div>
           {job.paragraphs.map(paragraph => {
             return (

@@ -1,11 +1,11 @@
 .background {
-  height: calc(100vh - 80px);
+  height: calc(100vh - 87px);
   background-image: url('../public/img/intro-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  padding-top: 80px;
+  padding-top: 87px;
 }
 
 .intro {
