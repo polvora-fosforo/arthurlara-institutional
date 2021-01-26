@@ -29,11 +29,12 @@ function MenuList(props) {
       {showHiddenMenuElements()}
       <li className={styles.menu__item}>
         <Anchor
+          className={styles.menu__link}
           onClick={props.setOpenMenu}
           to="intro"
           spy={true}
           smooth={true}
-          offset={-70}
+          offset={-87}
           duration={500}
         >
           About me
@@ -41,11 +42,12 @@ function MenuList(props) {
       </li>
       <li className={styles.menu__item}>
         <Anchor
+          className={styles.menu__link}
           onClick={props.setOpenMenu}
           to="experiences"
           spy={true}
           smooth={true}
-          offset={-70}
+          offset={-87}
           duration={500}
         >
           Experiences
@@ -53,11 +55,12 @@ function MenuList(props) {
       </li>
       <li className={styles.menu__item}>
         <Anchor
+          className={styles.menu__link}
           onClick={props.setOpenMenu}
           to="myKnowledge"
           spy={true}
           smooth={true}
-          offset={-70}
+          offset={-87}
           duration={500}
         >
           My knowledge
@@ -65,11 +68,12 @@ function MenuList(props) {
       </li>
       <li className={styles.menu__item}>
         <Anchor
+          className={styles.menu__link}
           onClick={props.setOpenMenu}
           to="thisWebsite"
           spy={true}
           smooth={true}
-          offset={-70}
+          offset={-87}
           duration={500}
         >
           This Website
@@ -77,11 +81,12 @@ function MenuList(props) {
       </li>
       <li className={styles.menu__item}>
         <Anchor
+          className={styles.menu__link}
           onClick={props.setOpenMenu}
           to="contact"
           spy={true}
           smooth={true}
-          offset={-70}
+          offset={-87}
           duration={500}
         >
           Contact
