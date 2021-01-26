@@ -21,6 +21,7 @@
   "homepage": "https://github.com/polvora-fosforo/arthurlara-institutional#readme",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-brands-svg-icons": "^5.15.2",
     "@fortawesome/free-solid-svg-icons": "^5.15.2",
     "@fortawesome/react-fontawesome": "^0.1.14",
     "next": "^10.0.3",

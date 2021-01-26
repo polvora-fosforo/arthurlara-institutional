@@ -42,6 +42,10 @@ Examples: large desktops, 1200px and up
   font-size: 2rem;
 }
 
+.subjectTitle--alternate {
+  color: #fff;
+}
+
 .division__item:first-child {
   padding-left: 0;
 }

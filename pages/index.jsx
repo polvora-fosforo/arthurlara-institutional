@@ -4,6 +4,7 @@ import {
   Menu,
   Intro,
   Experiences,
+  MyKnowledge,
   ThisWebsite,
   Contact,
 } from '../components';
@@ -19,6 +20,7 @@ const Home = () => {
       <Menu/>
       <Intro/>
       <Experiences/>
+      <MyKnowledge/>
       <ThisWebsite/>
       <Contact/>
     </>

@@ -1,0 +1,38 @@
+.background {
+  background-color: #32c18c;
+  padding-top: 40px;
+}
+
+.knowledges {
+  display: flex;
+}
+
+.knowledge {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.knowledge__icon {
+  width: 100px;
+}
+.knowledge__title {
+  font-weight: 500;
+  font-size: 2rem;
+  padding-bottom: 10px;
+}
+.knowledge__item {
+  padding-bottom: 5px;
+  font-size: 1.1rem;  
+}
+
+@media (max-width: 991px) {
+  .knowledges {
+    flex-direction: column;
+    padding: 0 0 40px;
+  }
+  .knowledge {
+    padding: 30px 20px 0;
+    text-align: center;
+  }
+}
