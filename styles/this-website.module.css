@@ -1,0 +1,23 @@
+.background {
+  background-color: #de18bf;
+  padding-top: 40px;
+}
+
+.repo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.repo__link {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 8px 10px;
+  border-radius: 14px;
+  margin-top: 20px;
+}
+.repo__link--external {
+  width: 12px;
+  display: inline-block;
+  padding-left: 7px;
+}
