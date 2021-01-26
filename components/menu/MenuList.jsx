@@ -14,7 +14,7 @@ function MenuList(props) {
             onClick={props.setOpenMenu}
           >
             {'<'}
-          </span>,
+          </span>
           <Logo />
         </>
       );

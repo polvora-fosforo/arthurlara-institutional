@@ -3,6 +3,7 @@
   background: #040c1c;
   padding: 10px 0;
   position: fixed;
+  z-index: 1;
 }
 
 .menu__container {
