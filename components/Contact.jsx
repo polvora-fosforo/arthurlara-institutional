@@ -28,11 +28,11 @@ const Contact = () => {
         <div className={styles.contact__division}>
           <ul>
             <li>
-              <a className={styles.contact__link} href="https://www.linkedin.com/in/arthur-lara-a94384205/" target="_blank">
+              <a className={styles.contact__link} href="https://www.linkedin.com/in/arthur-lara/" target="_blank">
                 <span className={styles['contact__link--icon']}>
                   <FontAwesomeIcon icon={faLinkedin} />
                 </span>
-                https://www.linkedin.com/in/arthur-lara-a94384205/
+                https://www.linkedin.com/in/arthur-lara/
                 <span className={styles['contact__link--icon']}>
                   <FontAwesomeIcon icon={faExternalLinkAlt} />
                 </span>
