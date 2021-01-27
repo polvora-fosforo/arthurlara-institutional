@@ -10,7 +10,7 @@ const ThisWebsite = () => {
     <section id="thisWebsite" className={`${globalStyles['container--fluid']} ${styles.background}`}>
       <h2 className={`${globalStyles.subjectTitle} ${globalStyles['subjectTitle--alternate']}`}>This website</h2>
 
-      <div className={`${globalStyles.container} ${styles.repo}`}>
+      <div className={styles.repo}>
         <p>This website was built using the framework Next.js and stylized using css modules. You can check the repository for this at:</p>
         <a className={styles.repo__link} href="https://github.com/polvora-fosforo/arthurlara-institutional" target="_blank">
           https://github.com/polvora-fosforo/arthurlara-institutional
